@@ -15,7 +15,7 @@
 	* 設定網路卡
 	* 從各層header抓取protocol資訊
 * [嗅探特定協定種類封包-UDP](#嗅探特定協定種類封包-UDP)
-* [針對TCP累計嗅探10次，並印出該封包的MAC、IP與port資訊](#針對TCP累計嗅探10次，並印出該封包的MAC、IP與port資訊)
+* [針對TCP累計嗅探10次，並印出該封包的MAC、IP與port資訊](##針對tcp累計嗅探10次並印出該封包的macip與port資訊)
 
 執行row socket需要root權限操作。
 
