@@ -140,7 +140,7 @@ struct ip {
 <span id = "inet"></span>
 `inet_ntoa()` 用來將header內以二進制形式攜帶的ip_src/ip_dst等資訊轉換為我們易讀的IPv4點式十進制表示法(dotted-decimal notation)。
 
-### 執行結果-UDP
+### *執行結果-UDP*
 
 ![image](snapshot/t2_captureUDP_PIC.jpg "嗅探特定協定種類封包-UDP")
 
@@ -163,7 +163,7 @@ struct tcphdr {
 };
 ```
 
-### 執行結果-TCP封包
+### _執行結果-TCP封包_
 
 ![image](snapshot/t3_captureTCP_PIC.jpg "針對TCP累計嗅探10次，並印出該封包的MAC、IP與port資訊")
 
