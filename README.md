@@ -21,7 +21,7 @@
 
 ## 累計嗅探100次網路中傳遞之封包並作protocol統計
 
-### 建立raw socket
+### *建立raw socket*
 
 <span id = "socket"></span>
 使用 `socket()` 創建。
@@ -61,7 +61,7 @@ int socket(int domain, int type, int protocol);
 網路位元組序(Network Byte Order)只有單純一種，是採用Big-endian。  
 主機位元組序(Host Byte Order)，有兩種；常見如在Intelx86 CUP的主機是Little-Endian，其他的則是Big-endian。
 
-### 設定網路卡
+### *設定網路卡*
 
 <span id = "ioctl"></span>
 使用raw socket進行嗅探，須將網路卡(network interface controller，NIC)設為混雜模式(promiscuous mode)。  
@@ -69,7 +69,7 @@ int socket(int domain, int type, int protocol);
 
 其中flag修改成promiscuous mode時是以 `|=` 運算進行。
 
-### 從各層header抓取protocol資訊
+### *從各層header抓取protocol資訊*
 
 #### data link layer
 
